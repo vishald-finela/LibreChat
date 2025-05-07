@@ -103,12 +103,12 @@ export default function useExportConversation({
     if (content.type === ContentTypes.TOOL_CALL) {
       const type = content[ContentTypes.TOOL_CALL].type;
 
-      if (type === ToolCallTypes.CODE_INTERPRETER) {
-        // CODE_INTERPRETER
-        const toolCall = content[ContentTypes.TOOL_CALL];
-        const code_interpreter = toolCall[ToolCallTypes.CODE_INTERPRETER];
-        return ['Code Interpreter', JSON.stringify(code_interpreter)];
-      }
+      // if (type === ToolCallTypes.CODE_INTERPRETER) {
+      //   // CODE_INTERPRETER
+      //   const toolCall = content[ContentTypes.TOOL_CALL];
+      //   const code_interpreter = toolCall[ToolCallTypes.CODE_INTERPRETER];
+      //   return ['Code Interpreter', JSON.stringify(code_interpreter)];
+      // }
 
       if (type === ToolCallTypes.RETRIEVAL) {
         // RETRIEVAL
