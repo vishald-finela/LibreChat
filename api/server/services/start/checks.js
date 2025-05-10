@@ -17,12 +17,12 @@ const deprecatedVariables = [
   {
     key: 'CHECK_BALANCE',
     description:
-      'Please use the `balance` field in the `librechat.yaml` config file instead.\nMore info: https://librechat.ai/docs/configuration/librechat_yaml/object_structure/balance#overview',
+      'Please use the `balance` field in the `librechat.yaml` config file instead.\nMore info: https://finela.ai/docs/configuration/librechat_yaml/object_structure/balance#overview',
   },
   {
     key: 'START_BALANCE',
     description:
-      'Please use the `balance` field in the `librechat.yaml` config file instead.\nMore info: https://librechat.ai/docs/configuration/librechat_yaml/object_structure/balance#overview',
+      'Please use the `balance` field in the `librechat.yaml` config file instead.\nMore info: https://finela.ai/docs/configuration/librechat_yaml/object_structure/balance#overview',
   },
   {
     key: 'GOOGLE_API_KEY',
